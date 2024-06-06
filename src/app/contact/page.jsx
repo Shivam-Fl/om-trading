@@ -174,9 +174,9 @@ const Page = () => {
                 </ul>
               </div>
               <div className="card h-fit max-w-6xl sm:px-5 md:px-12" id="form">
-                <h2 className="mb-4 text-2xl font-bold text-blue-700 ">
+                {/* <h2 className="mb-4 text-2xl font-bold text-blue-700 ">
                   Ready to Get Started?
-                </h2>
+                </h2> */}
                 <form id="contactForm" >
                   <div className="mb-6">
                     <div className="mx-0 mb-1 sm:mb-4">
@@ -216,7 +216,7 @@ const Page = () => {
                           onChange={handleChange}
                         />
                       </div>
-                      <div className="mx-0 mb-1 sm:mb-4">
+                      {/* <div className="mx-0 mb-1 sm:mb-4">
                         <label
                           htmlFor="subject"
                           className="pb-1 text-xs uppercase tracking-wider dark:text-gray-200"
@@ -238,7 +238,7 @@ const Page = () => {
                             Partner Company
                           </option>
                         </select>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="mx-0 mb-1 sm:mb-4">
                       <label

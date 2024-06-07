@@ -25,7 +25,7 @@ export default function page() {
        <header className="bg-blue-600 h-52 text-white p-6">
         <div className="container flex max-sm:justify-center max-sm:items-center text-center sm:h-80 mx-10 relative">
             <h1 className="font-extralight mb-4 text-start text-4xl xl:text-7xl pt-14 sm:pt-24 font-[NeoSansPro-Medium] ">About us</h1>
-            <p className="text-sm sm:text-xl  text-gray-800 max-sm:max-w-[15rem] max-lg:max-w-[20rem] lg:max-w-lg bg-gray-200 px-4 py-5 xl:px-10 lg:py-12 absolute max-sm:-bottom-20  bottom-20 sm:-right-14 md:right-8 lg:right-32  font-[NeoSansPro-Light] font-bold">Innovative solutions for international trading and supply chain management.</p>
+            <p className="text-sm sm:text-xl  text-gray-800 max-sm:max-w-[15rem] max-lg:max-w-[20rem] lg:max-w-lg bg-white rounded-3xl px-4 py-5 xl:px-10 lg:py-12 absolute max-sm:-bottom-20  bottom-20 sm:-right-14 md:right-8 lg:right-28  font-[NeoSansPro-Light] font-bold">Innovative solutions for international trading and supply chain management.</p>
         </div>
     </header>
 

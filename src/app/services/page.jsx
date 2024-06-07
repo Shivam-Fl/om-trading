@@ -49,8 +49,16 @@ export default function Home() {
     
 
       <main className="mx-auto font-[NeoSansPro-Regular]">
-        <div className=" flex flex-col  gap-y-32   ">
-          <header className="bg-blue-600 py-16    ">
+        
+        <div className=" flex flex-col     ">
+        <header className="bg-blue-600 h-52 text-white p-6">
+        <div className="container flex max-sm:justify-center max-sm:items-center text-center sm:h-80 mx-10 relative">
+            <h1 className="font-extralight mb-4 text-start text-4xl xl:text-7xl pt-14 sm:pt-24 font-[NeoSansPro-Medium] ">Services</h1>
+            <p className="text-sm sm:text-xl  text-gray-800 max-sm:max-w-[15rem] max-lg:max-w-[20rem] lg:max-w-lg bg-blue-50 px-4 py-5 xl:px-10 lg:py-12 absolute max-sm:-bottom-20  bottom-20 sm:-right-14 md:right-8 lg:right-28  font-[NeoSansPro-Light] font-bold rounded-3xl">Om Trading Corporation is a leading provider of international
+            trading and supply chain solutions.</p>
+        </div>
+    </header>
+          {/* <header className="bg-blue-600 py-16    ">
             <div className="sm:container flex max-sm:justify-center max-sm:items-center text-center sm:h-64 mx-10 relative">
               <h1 className=" font-extralight mb-4 text-start text-6xl sm:text-7xl pt-14 sm:pt-24 text-gray-100 font-[NeoSansPro-Medium]">
                 Services
@@ -60,13 +68,22 @@ export default function Home() {
                 trading and supply chain solutions.
               </div>
             </div>
-          </header>
-          <div className="flex flex-col max-sm:justify-center max-sm:items-center md:flex-row container mx-auto relative ">
-            <p className="text-xl max-w-lg sm:max-w-xl max-sm:text-center sm:ml-10 pt-4 sm:pt-16">
+          </header> */}
+          <div className="flex flex-col mx-auto justify-center items-center lg:flex-row max-w-7xl bg-blue-50 p-2 sm:p-6 gap-x-32 gap-y-8  border-b rounded-b-3xl ">
+            <div className="basis-2/3 ">
+            {/* <p className="text-xl max-w-2xl text-center sm:ml-10 pt-4 sm:pt-16">
               Our extensive network spans across continents, ensuring the
               seamless movement of goods and services globally.
-            </p>
-            <div className="bg-white max-w-96 lg:absolute right-10 -top-44 rounded-lg shadow-md p-6">
+            </p> */}
+            <section className="mt-14 bg-blue-200 rounded-2xl shadow-sm p-4">
+            <h3 className="text-xl  md:text-2xl text-center font-normal mb-2"> Our extensive network spans across continents, ensuring the
+            seamless movement of goods and services globally. </h3>
+            
+        </section>
+            </div>
+            
+            
+            <div className="bg-white max-w-96 rounded-lg shadow-md p-6 basis-1/3 z-[100]">
               {/* Image container */}
               <div className="relative h-48 overflow-hidden">
                 <img
@@ -91,8 +108,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <section className=" mx-5 max-sm:flex max-sm:justify-center max-sm:items-center sm:mx-16 pt-20 sm:pt-48">
-          <div className="sm:container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <section className=" mx-5 max-sm:flex max-sm:justify-center max-sm:items-center sm:mx-16 pt-20 ">
+          <div className="sm:container mx-auto flex flex-wrap justify-center items-center gap-10">
           {services.map((service, index) => (
               <div key={index} className="bg-white max-w-80 rounded-lg shadow-md">
                 <div className="relative h-48 overflow-hidden">

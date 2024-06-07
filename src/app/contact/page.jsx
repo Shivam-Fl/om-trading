@@ -69,16 +69,15 @@ const Page = () => {
 
   return (
     <div className="font-[NeoSansPro-Regular]">
-      <section className="dark:bg-slate-800 bg-gray-200">
+            <header className="bg-blue-600 h-44 text-white ">
+        <div className="container  sm:h-80 mx-10 ">
+            <h1 className="font-extralight mb-4  text-4xl xl:text-7xl pt-14 sm:pt-20 font-[NeoSansPro-Medium] text-center ">Get in touch</h1>
+
+        </div>
+    </header>
+      <section className="dark:bg-slate-800 bg-white">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-8">
-          <div className="mb-4">
-            <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
-              <h2 className="font-heading mb-4 font-bold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl">
-                Get in Touch
-              </h2>
- 
-            </div>
-          </div>
+        
           <div className="flex items-stretch justify-center">
             <div className="grid md:grid-cols-2">
               <div className="h-full pr-6">

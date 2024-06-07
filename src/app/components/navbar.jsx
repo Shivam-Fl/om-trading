@@ -14,10 +14,16 @@ const navLink = [
     link: "/services",
   },
   {
+    id: 5,
+    header: "Products",
+    link: "/products",
+  },
+  {
     id: 2,
     header: "About",
     link: "/about",
   },
+
   {
     id: 3,
     header: "Contact",

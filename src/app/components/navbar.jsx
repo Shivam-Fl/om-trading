@@ -55,7 +55,7 @@ function Navbar() {
   };
 
   return (
-    <div className="sticky top-0 bg-gray-100 dark:bg-[#1a1a1a] z-[200] font-[NeoSansPro-Regular]">
+    <div className="sticky top-0 bg-gray-100  z-[200] font-[NeoSansPro-Regular]">
       <div className="flex justify-between align-center text-lg sm:text-2xl mx-auto p-4  items-center">
         {/* <a
           href="https://www.effilearn.in/"
@@ -127,7 +127,7 @@ function Navbar() {
                     activeLink === link.link
                       ? "text-white bg-blue-700 "
                       : "text-gray-800"
-                  } text-center cursor-pointer dark:text-gray-200 font-bold  block px-3 py-2 rounded-md   md:p-0    md:bg-transparent   self-center text-lg  font-montserrat  `}
+                  } text-center cursor-pointer  font-bold  block px-3 py-2 rounded-md   md:p-0    md:bg-transparent   self-center text-lg  font-montserrat  `}
                 >
                   {link.header}
                 </div>

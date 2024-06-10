@@ -16,7 +16,7 @@ const Footer = () => {
                   width={32}
                   height={32}
                 />
-                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                <span className="self-center text-2xl font-semibold whitespace-nowrap ">
                   Om Trading
                 </span>
               </p>
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
           <div className="basis-1/2 grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">
                 Useful links
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
@@ -51,12 +51,12 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-2 text-sm font-semibold text-gray-900 uppercase ">
                 Head office
               </h2>
               <p className="text-gray-500">XYZ XYZ XYZ XYZ</p>
 
-              <h2 className="mb-2 mt-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-2 mt-6 text-sm font-semibold text-gray-900 uppercase ">
                 Business Hours
               </h2>
               <p className="text-gray-500">XYZ XYZ XYZ XYZ</p>
@@ -74,7 +74,7 @@ const Footer = () => {
               </ul> */}
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">
                 Legal
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
@@ -92,7 +92,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <hr className="my-6  sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between gap-y-4">
           <span className="text-sm flex md:gap-x-4 text-gray-500 sm:text-center dark:text-gray-400">
             © 2024{" "}

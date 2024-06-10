@@ -53,7 +53,7 @@ export default function FAQ() {
   };
 
   return (
-    <div className="App dark:text-gray-200 font-[NeoSansPro-Regular]">
+    <div className="App  font-[NeoSansPro-Regular]">
       {/* <header className="bg-blue-600 h-52 text-white ">
         <div className="container  sm:h-80 mx-10 ">
             <h1 className="font-extralight mb-4  text-4xl xl:text-7xl pt-14 sm:pt-24 font-[NeoSansPro-Medium] text-center ">Frequently Asked Questions</h1>
@@ -67,7 +67,7 @@ export default function FAQ() {
         {faqs.map((faq, index) => (
           <div
             className={
-              "faq dark:bg-gray-800 bg-blue-50 " + (faq.open ? "open" : "") + ""
+              "faq  bg-blue-50 " + (faq.open ? "open" : "") + ""
             }
             key={index}
             onClick={() => toggleFAQ(index)}

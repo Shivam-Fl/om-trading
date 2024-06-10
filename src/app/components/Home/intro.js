@@ -20,7 +20,7 @@ const HomeIntro = () => {
     <div
       data-aos="fade-up"
       data-aos-duration="700"
-      className=" h-[85vh] bg-home mb-[5vh]  rounded-bl-[7vh] md:rounded-bl-[10vh] "
+      className=" h-[85vh] bg-home mb-[5vh] rounded-bl-[10vh] "
     >
       {/* <video className="border rounded-bl-[10rem] " autoPlay muted  id="myVideo">
   <source src="/home/homV.mp4" type="video/mp4" />

@@ -1,0 +1,107 @@
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+export default function Founders() {
+  useEffect(() => {
+    AOS.init({});
+    AOS.refresh();
+    return () => {
+      AOS.refreshHard();
+    };
+  }, []);
+
+  return (
+    <div className="flex max-md:flex-col justify-center items-center max-w-7xl gap-x-10 ">
+      <div className="basis-2/4 flex flex-col gap-y-10">
+        <h2 className="text-bold text-5xl text-black font-[NeoSansPro-Medium]">
+          Meet Our Founders
+        </h2>
+        <div className="bg-blue-100 p-10 rounded-3xl font-[NeoSansPro-Light]">
+          <p>
+            {" "}
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Voluptatibus culpa beatae praesentium dolor corrupti optio deserunt
+            perspiciatis tempore neque vitae? Nulla saepe quae explicabo
+            praesentium perferendis vitae hic velit sint?
+          </p>
+        </div>
+      </div>
+      <div
+        data-aos="flip-down"
+        data-aos-duration="600"
+        className="basis-1/4 flex flex-col justify-center items-center gap-y-4 p-4"
+      >
+        <img
+          className="rounded-full h-32 w-32"
+          src="https://www2.deloitte.com/content/dam/Deloitte/nl/Images/promo_images/deloitte-nl-cm-digital-human-promo.jpg"
+          alt=""
+        />
+        <div className="text-bold font-[NeoSansPro-Medium]">
+          <h2 className="text-center ">AKKAD BAAKAD</h2>
+          <h2 className="text-center">Position</h2>
+        </div>
+        <div className="flex gap-2">
+          <a href="">
+            <img
+              className="w-5 h-5"
+              src="https://img.icons8.com/ios/50/facebook-new.png"
+              alt="facebook"
+            />
+          </a>
+          <a href="">
+            <img
+              className="w-5 h-5"
+              src="https://img.icons8.com/ios/50/instagram-new--v1.png"
+              alt="instagram"
+            />
+          </a>
+          <a href="">
+            <img
+              className="w-5 h-5"
+              src="https://img.icons8.com/ios/50/linkedin.png"
+              alt="linkedin"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        data-aos="flip-up"
+        data-aos-duration="600"
+        className="basis-1/4 flex flex-col justify-center items-center gap-y-4 bg-blue-100 rounded-3xl p-4"
+      >
+        <img
+          className="rounded-full h-32 w-32"
+          src="https://www2.deloitte.com/content/dam/Deloitte/nl/Images/promo_images/deloitte-nl-cm-digital-human-promo.jpg"
+          alt=""
+        />
+        <div className="text-bold font-[NeoSansPro-Medium]">
+          <h2 className="text-center ">AKKAD BAAKAD</h2>
+          <h2 className="text-center">Position</h2>
+        </div>
+        <div className="flex gap-2">
+          <a href="">
+            <img
+              className="w-5 h-5"
+              src="https://img.icons8.com/ios/50/facebook-new.png"
+              alt="facebook"
+            />
+          </a>
+          <a href="">
+            <img
+              className="w-5 h-5"
+              src="https://img.icons8.com/ios/50/instagram-new--v1.png"
+              alt="instagram"
+            />
+          </a>
+          <a href="">
+            <img
+              className="w-5 h-5"
+              src="https://img.icons8.com/ios/50/linkedin.png"
+              alt="linkedin"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}

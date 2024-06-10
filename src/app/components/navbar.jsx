@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
@@ -14,7 +14,7 @@ const navLink = [
     link: "/services",
   },
   {
-    id: 5,
+    id: 3,
     header: "Products",
     link: "/products",
   },
@@ -23,21 +23,9 @@ const navLink = [
     header: "About",
     link: "/about",
   },
-
-  {
-    id: 3,
-    header: "Contact",
-    link: "/contact",
-  },
-  {
-    id: 4,
-    header: "FAQ",
-    link: "/FAQs",
-  },
 ];
 
 function Navbar() {
-  
   const [activeLink, setActiveLink] = useState("/");
   const [toggle, setToggle] = useState(false);
 
@@ -49,7 +37,6 @@ function Navbar() {
     }
   }, []);
 
-  
   const handleClick = (link) => {
     setActiveLink(link);
     // Store active link in session storage
@@ -69,7 +56,7 @@ function Navbar() {
 
   return (
     <div className="sticky top-0 bg-gray-100 dark:bg-[#1a1a1a] z-[200] font-[NeoSansPro-Regular]">
-      <div className="flex justify-between align-center text-lg sm:text-2xl mx-auto p-4">
+      <div className="flex justify-between align-center text-lg sm:text-2xl mx-auto p-4  items-center">
         {/* <a
           href="https://www.effilearn.in/"
           className="flex items-center space-x-1 rtl:space-x-reverse"
@@ -80,7 +67,7 @@ function Navbar() {
             alt="Effilearn logo"
           />
         </a> */}
-        <h1 className="font-bold mt-2">Om Trading</h1>
+        <h1 className="font-bold ">Om Trading</h1>
 
         <div className="hidden md:flex self-center z-[200]">
           <div className="flex gap-x-8 lg:gap-x-20 self-center text-lg xl:text-xl font-montserrat font-bold dark:font-medium dark:text-gray-100 text-gray-800">
@@ -88,9 +75,7 @@ function Navbar() {
               <Link key={link.id} href={link.link}>
                 <div
                   className={`${
-                    activeLink === link.link
-                      ? "text-blue-700 "
-                      : ""
+                    activeLink === link.link ? "text-blue-700 " : ""
                   }`}
                   onClick={() => handleClick(link.link)}
                 >
@@ -102,7 +87,14 @@ function Navbar() {
         </div>
 
         <div className="flex gap-x-2 sm:gap-x-4 self-center">
-          
+          <a href="/contact">
+            <button
+              type="button"
+              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2  dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            >
+              Contact
+            </button>
+          </a>
           <div className="-mr-2 flex md:hidden">
             <button
               type="button"

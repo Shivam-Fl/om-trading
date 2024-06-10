@@ -1,5 +1,9 @@
+"use client"
 import Image from 'next/image';
 import React from 'react'
+import { useEffect } from "react";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 const content = [
     {
@@ -20,16 +24,30 @@ const content = [
   ];
   
 export default function page() {
+
+  useEffect(() => {
+    AOS.init({});
+    AOS.refresh();
+    return () => {
+      AOS.refreshHard();
+    };
+  }, []);
+
   return (
     <div className='font-[NeoSansPro-Regular]'>
-       <header className="bg-blue-600 h-52 text-white p-6">
+       <header data-aos="fade-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="600"
+           className="bg-blue-600 h-52 text-white p-6">
         <div className="container flex max-sm:justify-center max-sm:items-center text-center sm:h-80 mx-10 relative">
             <h1 className="font-extralight mb-4 text-start text-4xl xl:text-7xl pt-14 sm:pt-24 font-[NeoSansPro-Medium] ">About us</h1>
-            <p className="text-sm sm:text-xl  text-gray-800 max-sm:max-w-[15rem] max-lg:max-w-[20rem] lg:max-w-lg bg-white rounded-3xl px-4 py-5 xl:px-10 lg:py-12 absolute max-sm:-bottom-20  bottom-20 sm:-right-14 md:right-8 lg:right-28  font-[NeoSansPro-Light] font-bold">Innovative solutions for international trading and supply chain management.</p>
+            <p className="text-sm sm:text-xl  text-gray-800 max-sm:max-w-[15rem] max-lg:max-w-[20rem] lg:max-w-lg bg-white rounded-3xl px-4 py-5 xl:px-10 lg:py-12 absolute max-sm:-bottom-20  bottom-24 sm:-right-14 md:right-8 lg:right-28  font-[NeoSansPro-Light] font-bold">Innovative solutions for international trading and supply chain management.</p>
         </div>
     </header>
 
-    <main className=" container mx-auto my-10 p-6 bg-white shadow-md">
+    <main data-aos="fade-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="600" className="  container mx-auto my-10 p-6 bg-white shadow-md">
         <section className='xl:max-w-[55%] text-justify lg:text-lg font-[NeoSansPro-Regular]'>
            
             <p>Welcome to Om Trading Corporation. We offer innovative solutions that encompass every aspect of international trading; through efficient supply chain management and high-quality procurement services to our customers around the world. We go beyond Trading and Supply Chain Management: we are a Total Supply Chain Solution Provider to industries worldwide.</p>
@@ -47,7 +65,9 @@ export default function page() {
         </section>
         <div className="container mx-auto flex flex-wrap justify-center items-center gap-14  mt-14">
         {content.map((item, index) => (
-              <div key={index} className="bg-white max-w-80 rounded-lg shadow-md">
+              <div key={index} data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000" className="bg-white max-w-80 rounded-lg shadow-md">
                 <div className="relative h-48 overflow-hidden">
                   <img
                     src={item.image}

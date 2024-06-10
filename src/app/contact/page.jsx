@@ -69,20 +69,22 @@ const Page = () => {
 
   return (
     <div className="font-[NeoSansPro-Regular]">
-            <header className="bg-blue-600 h-44 text-white ">
+      <header className="bg-blue-600 h-44 text-white ">
         <div className="container  sm:h-80 mx-10 ">
-            <h1 className="font-extralight mb-4  text-4xl xl:text-7xl pt-14 sm:pt-20 font-[NeoSansPro-Medium] text-center ">Get in touch</h1>
-
+          <h1 className="font-extralight mb-4  text-4xl xl:text-7xl pt-14 sm:pt-20 font-[NeoSansPro-Medium] text-center ">
+            Get in touch
+          </h1>
         </div>
-    </header>
+      </header>
       <section className="dark:bg-slate-800 bg-white">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-8">
-        
           <div className="flex items-stretch justify-center">
             <div className="grid md:grid-cols-2">
               <div className="h-full pr-6">
                 <p className="mt-3 mb-12 sm:text-lg text-gray-600 dark:text-slate-400 text-justify">
-                At Om Trading Corporation, we offer comprehensive trading and international supply services, ensuring you receive the best products and solutions to excel in the global market.
+                  At Om Trading Corporation, we offer comprehensive trading and
+                  international supply services, ensuring you receive the best
+                  products and solutions to excel in the global market.
                 </p>
                 <ul className="mb-6 md:mb-0">
                   <li className="flex">
@@ -136,7 +138,7 @@ const Page = () => {
                       <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">
                         Contact
                       </h3>
-                     
+
                       <p className="text-gray-600 dark:text-slate-400">
                         Mail: admin@omtrading.in
                       </p>
@@ -163,7 +165,7 @@ const Page = () => {
                     </div>
                     <div className="ml-4 mb-4">
                       <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">
-                         REGISTRATION NUMBER
+                        REGISTRATION NUMBER
                       </h3>
                       <p className="text-gray-600 dark:text-slate-400">
                         XYZZYXSYDGRY
@@ -176,16 +178,14 @@ const Page = () => {
                 {/* <h2 className="mb-4 text-2xl font-bold text-blue-700 ">
                   Ready to Get Started?
                 </h2> */}
-                <form id="contactForm" >
+                <form id="contactForm">
                   <div className="mb-6">
                     <div className="mx-0 mb-1 sm:mb-4">
                       <div className="mx-0 mb-1 sm:mb-4">
                         <label
                           htmlFor="username"
                           className="pb-1 text-xs uppercase tracking-wider"
-                        >
-                         
-                        </label>
+                        ></label>
                         <input
                           type="text"
                           id="username"
@@ -201,9 +201,7 @@ const Page = () => {
                         <label
                           htmlFor="email"
                           className="pb-1 text-xs uppercase tracking-wider"
-                        >
-                          
-                        </label>
+                        ></label>
                         <input
                           type="email"
                           id="email"
@@ -243,9 +241,7 @@ const Page = () => {
                       <label
                         htmlFor="message"
                         className="pb-1 text-xs uppercase tracking-wider"
-                      >
-                      
-                      </label>
+                      ></label>
                       <textarea
                         id="message"
                         name="message"
@@ -279,6 +275,5 @@ const Page = () => {
     </div>
   );
 };
-
 
 export default Page;

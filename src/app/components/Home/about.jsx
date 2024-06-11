@@ -16,7 +16,7 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <div className="bg-blue-100 max-w-7xl mx-auto mt-[10vh] shadow-lg rounded-xl w-full p-[4vh] md:p-[8vh] flex lg:flex-row flex-col justify-center items-center">
+    <div className="bg-blue-100 max-w-7xl mx-auto mt-[10vh] shadow-lg rounded-xl w-full p-[4vh] md:p-[2rem] flex lg:flex-row flex-col justify-center items-center">
       <div className="sm:basis-1/2  ">
         <video
           data-aos="fade-left"

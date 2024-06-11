@@ -18,7 +18,7 @@ const Achivement = () => {
 
   return (
     <div className="bg-white rounded-xl flex flex-col md:flex-row md:shadow-none shadow-inner shadow-black justify-center items-center">
-      <div className="p-5" data-aos="flip-up">
+      <div className="p-5 basis-1/2" data-aos="flip-up">
         <h2 className="text-bold text-4xl text-black font-[NeoSansPro-Medium]">
           Our Achievements
         </h2>
@@ -50,7 +50,7 @@ const Achivement = () => {
       </div>
       <img
         data-aos="flip-down"
-        className="rounded-lg w-[90%] md:w-[60vh] mx-auto mb-[5vh] md:mb-0"
+        className="rounded-lg basis-1/2 w-[90%] md:w-[60vh] mx-auto mb-[5vh] md:mb-0"
         src={
           "https://hbr.org/resources/images/article_assets/2023/09/R2306N_NORTON.png"
         }

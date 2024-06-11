@@ -17,11 +17,11 @@ const AboutUs = () => {
 
   return (
     <div className="bg-blue-100 max-w-7xl mx-auto mt-[10vh] shadow-lg rounded-xl w-full p-[4vh] md:p-[8vh] flex lg:flex-row flex-col justify-center items-center">
-      <div className="basis-1/2 ">
+      <div className="sm:basis-1/2  ">
         <video
           data-aos="fade-left"
           data-aos-duration="600"
-          className=" rounded-3xl max-sm:h-[15vh] h-[25vh] mb-[3vh] ml-20 md:ml-40 border-2 border-blue-700 md:mb-0 "
+          className=" rounded-3xl max-sm:h-[15vh] h-[25vh] mb-[3vh] ml-16 max-md:-mb-5 sm:ml-48 border-2 border-blue-700 md:mb-0 "
           autoPlay
           muted
           loop
@@ -32,7 +32,7 @@ const AboutUs = () => {
         <video
           data-aos="fade-left"
           data-aos-duration="600"
-          className=" rounded-3xl h-[25vh] max-sm:h-[15vh] -mt-5 max-sm:-mt-12 max-md:-mt-16 border-2 border-blue-400  mb-[3vh] md:mb-0 "
+          className=" rounded-3xl h-[25vh] max-sm:h-[15vh] -mt-5 max-sm:-mt-16 max-md:-mt-16 border-2 border-blue-400  mb-[3vh] md:mb-0 "
           autoPlay
           muted
           loop
@@ -49,7 +49,7 @@ const AboutUs = () => {
         alt="logo"
       /> */}
       <div
-        className="md:p-[5vh] basis-1/2"
+        className="md:p-[5vh] sm:basis-1/2"
         data-aos="fade-right"
         data-aos-duration="600"
       >

@@ -101,7 +101,7 @@ const Footer = () => {
             </Link>
             . All Rights Reserved.
           </span>
-          <div className="flex flex-row justify-center items-center text-[1.7vh] md:text-[2vh]">
+          <div className="flex flex-row sm:justify-center sm:items-center text-sm maxax-sm:text-xs ">
             Made by &#64;CodersFortify Technologies &nbsp;
             <Link
               href="https://www.linkedin.com/company/codersfortify/"

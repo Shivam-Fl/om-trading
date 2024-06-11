@@ -1,9 +1,20 @@
+"use client"
 import Link from "next/link";
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import {useEffect} from "react"
 
 const Footer = () => {
+  useEffect(() => {
+    AOS.init({});
+    AOS.refresh();
+    return () => {
+      AOS.refreshHard();
+    };
+  }, []);
   return (
-    <footer className="bg-gray-100  font-[NeoSansPro-Regular]">
+    <footer data-aos="fade-up" data-aos-duration="600" className="bg-gray-100  font-[NeoSansPro-Regular]">
       <div className="mx-auto w-full  p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0 basis-1/2 flex flex-col justify-center items-start">

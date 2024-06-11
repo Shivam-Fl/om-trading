@@ -28,11 +28,11 @@ const ServiceProductCard = () => {
       <h2 className="text-bold text-5xl text-black font-[NeoSansPro-Medium]">
         Products We Ship!
       </h2>
-    <div className="md:mt-4 flex flex-wrap gap-[3vh] justify-center items-center ">
+    <div className="md:mt-4 flex max-lg:flex-wrap   gap-[3vh] justify-center items-center ">
         {products.map((product, id) => (
           <div
             key={id}
-            className="group relative max-w-[19rem] bg-white hover:bg-blue-50 rounded-3xl border shadow-lg  overflow-hidden transition-transform transform hover:scale-105 p-5 md:mt-0 mt-10"
+            className="group relative max-lg:max-w-[19rem] bg-white hover:bg-blue-50 rounded-3xl border shadow-lg  overflow-hidden transition-transform transform hover:scale-105 p-5 md:mt-0 mt-10"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"

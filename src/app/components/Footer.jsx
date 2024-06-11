@@ -109,7 +109,7 @@ const Footer = () => {
             >
               <img
                 src="/codersfo.png"
-                className="w-[2.5vh] md:w-[5vh] shadow-md ml-[1vh] hover:scale-125 transition-all"
+                className="w-5 md:w-10 shadow-md ml-2 hover:scale-125 transition-all"
               />
             </Link>
           </div>

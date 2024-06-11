@@ -21,7 +21,7 @@ const AboutUs = () => {
         <video
           data-aos="fade-left"
           data-aos-duration="600"
-          className=" rounded-3xl max-sm:h-[15vh] h-[25vh] mb-[3vh] ml-16 max-md:-mb-5 sm:ml-48 border-2 border-blue-700 md:mb-0 "
+          className=" rounded-3xl max-sm:h-[15vh] h-[10rem] mb-[3vh] ml-16 max-md:-mb-5 sm:ml-48 border-2 border-blue-700 md:mb-0 "
           autoPlay
           muted
           loop
@@ -32,7 +32,7 @@ const AboutUs = () => {
         <video
           data-aos="fade-left"
           data-aos-duration="600"
-          className=" rounded-3xl h-[25vh] max-sm:h-[15vh] -mt-5 max-sm:-mt-16 max-md:-mt-16 border-2 border-blue-400  mb-[3vh] md:mb-0 "
+          className=" rounded-3xl h-[10rem] max-sm:h-[15vh] -mt-5 max-sm:-mt-16 max-md:-mt-16 border-2 border-blue-400  mb-[3vh] md:mb-0 "
           autoPlay
           muted
           loop

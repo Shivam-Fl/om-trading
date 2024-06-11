@@ -48,14 +48,17 @@ const Achivement = () => {
           </div>
         </Link>
       </div>
+      <div className="basis-1/2">
       <img
         data-aos="flip-down"
-        className="rounded-lg basis-1/2  md:w-[60vh] mx-auto mb-[5vh] md:mb-0"
+        className="rounded-lg  w-[100%] mx-auto mb-[5vh] md:mb-0"
         src={
           "https://hbr.org/resources/images/article_assets/2023/09/R2306N_NORTON.png"
         }
         alt="logo"
       />
+      </div>
+      
     </div>
   );
 };

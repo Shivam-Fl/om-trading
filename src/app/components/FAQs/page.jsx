@@ -60,7 +60,7 @@ export default function FAQ() {
 
         </div>
     </header> */}
-      <h2 className="text-bold text-5xl text-black font-[NeoSansPro-Medium]">
+      <h2 className="text-bold max-md:text-3xl max-sm:text-center md:text-5xl text-black font-[NeoSansPro-Medium]">
         Frequently Asked Questions
       </h2>
       <div className="faqs py-4 ">

@@ -13,10 +13,10 @@ export default function Founders() {
   return (
     <div className="flex max-md:flex-col justify-center items-center max-w-7xl m-2 gap-x-10 ">
       <div className="basis-2/4 flex flex-col gap-y-10">
-        <h2 className="text-bold text-5xl text-black font-[NeoSansPro-Medium]">
+        <h2 className="text-bold max-md:text-3xl max-sm:text-center md:text-5xl text-black font-[NeoSansPro-Medium]">
           Meet Our Founders
         </h2>
-        <div className="bg-blue-100 p-10 rounded-3xl font-[NeoSansPro-Light]">
+        <div className="bg-blue-100 p-5 md:p-10 rounded-3xl font-[NeoSansPro-Light]">
           <p>
             {" "}
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.

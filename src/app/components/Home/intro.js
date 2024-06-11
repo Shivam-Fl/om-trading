@@ -26,7 +26,7 @@ const HomeIntro = () => {
   <source src="/home/homV.mp4" type="video/mp4" />
 </video> */}
 
-      <div className="md:flex relative">
+      <div className="md:flex relative max-lg:m-4">
         <div className="md:p-[5vh] md:pt-52 pt-36 md:pl-36 lg:mt-32  gap-10 lg:gap-20 font-medium md:pr-0 ">
           <span
             data-aos="fade-up"
@@ -41,7 +41,7 @@ const HomeIntro = () => {
             chain solutions. <br /> We deliver quality, efficiency, and
             sustainability across international markets.
           </p>
-          <Link href="/contact" data-aos="fade-up">
+          <Link href="/contact" >
             <div className="bg-blue-400 p-2 px-6 text-black rounded-lg w-44 mt-6 flex items-center space-x-4 h-12">
               <span>Contact Us</span>
               <FaArrowRight className="text-blue-100 font-extrabold text-xl" />

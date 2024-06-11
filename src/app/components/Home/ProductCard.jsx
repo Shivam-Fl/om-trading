@@ -25,7 +25,7 @@ const ServiceProductCard = () => {
   ];
   return (
     <div className=" pt-10 max-w-7xl flex flex-col m-2">
-      <h2 className="text-bold text-5xl text-black font-[NeoSansPro-Medium]">
+      <h2 className="text-bold max-md:text-3xl max-sm:text-center md:text-5xl text-black font-[NeoSansPro-Medium]">
         Products We Ship!
       </h2>
     <div className="md:mt-4 flex max-lg:flex-wrap   gap-[3vh] justify-center items-center ">
@@ -44,22 +44,22 @@ const ServiceProductCard = () => {
                   alt={product.image}
                   className="h-52 w-full object-cover object-center lg:h-full lg:w-full max-h-full rounded-t-3xl"
                 />
-                <Link
-                  href=""
+                <div
+                  
                   data-aos="fade-up"
                   className="absolute bottom-2 left-2"
                 >
-                  <div className="bg-blue-600 p-2 px-6 text-gray-100 rounded-r-lg w-32 mt-6 flex items-center space-x-4 h-12">
+                  <a href="/products" className="bg-blue-600 p-2 px-6 text-gray-100 rounded-r-lg w-32 mt-6 flex items-center space-x-4 h-12">
                     <span>Explore</span>
-                  </div>
-                </Link>
+                  </a>
+                </div>
               </div>
 
               <div className="mt-4 p-3 flex justify-center">
                 <div className="">
                   <h3 className="text-sm font-semibold text-black">
                     <Link
-                      href={``}
+                      href={`/products`}
                       className="hover:underline text-black font-bold text-lg"
                     >
                       <span aria-hidden="true" className="absolute inset-0" />
@@ -78,12 +78,12 @@ const ServiceProductCard = () => {
           </div>
         ))}
       </div>
-      <a
+      {/* <a
         className="text-blue-500 font-bold hover:underline text-end p-3 text-xl md:text-2xl"
         href="/products"
       >
         <p>View All .....</p>
-      </a>
+      </a> */}
     </div>
   );
 };

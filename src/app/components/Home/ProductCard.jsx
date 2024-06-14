@@ -5,21 +5,21 @@ import { IoIosArrowForward } from "react-icons/io";
 const ServiceProductCard = () => {
   const products = [
     {
-      title: "Coffee Shops",
+      title: "PEARL POWDER",
       description:
-        "Laila Saif Mutlaq Al-Otaibi has developed many coffee shops in Saudi arabia with our professional skilled staff.",
+        "Nacre, an ingredient in pearl powder can also stimulate fibroblasts in the body, which accelerates wound healing. This can also help collagen regenerate itself, which may make wrinkles appear less prominent. Pearl powder was used as an anti-inflammatory, detoxifying agent, and relaxant in Chinese medicine",
       image: "/products/1.png",
     },
     {
-      title: "Shops",
+      title: "TOMATO POWDER",
       description:
-        "Many shops & malls developed all over the the kingdom by amaze arabia contracting company",
+        "Tomato Powder has anti-atherosclerotic properties thanks to the acid they contain, which intensifies the oxidation of fatty acids in liver cells and inhibits the accumulation of triglycerides in them. Cholesterol levels are also lowered by pectin in tomato powder. Lycopene also works well for the heart.",
       image: "/products/2.png",
     },
     {
-      title: "Outlets",
+      title: "MORINGA",
       description:
-        "Laila Saif Mutlaq Al-Otaibi has developed many outlets. Saudi Arabia with our skills and professional staff.",
+        "Moringa contains a range of antioxidant and anti-inflammatory agents, such as quercetin, which may help protect cardiovascular health. Quercetin may help prevent lipid formation and inflammation, both of which can contribute to heart disease. Moringa may also have cholesterol-lowering properties.",
       image: "/products/3.png",
     },
   ];

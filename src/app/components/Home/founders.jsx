@@ -33,12 +33,12 @@ export default function Founders() {
       >
         <img
           className="rounded-full h-32 w-32"
-          src="https://www2.deloitte.com/content/dam/Deloitte/nl/Images/promo_images/deloitte-nl-cm-digital-human-promo.jpg"
+          src="/ANJANA_JALAPUR.jpeg"
           alt=""
         />
         <div className="text-bold font-[NeoSansPro-Medium]">
-          <h2 className="text-center ">AKKAD BAAKAD</h2>
-          <h2 className="text-center">Position</h2>
+          <h2 className="text-center ">ANJANA JALAPUR</h2>
+          <h2 className="text-center">Proprietor</h2>
         </div>
         <div className="flex gap-2">
           <a href="">
@@ -48,7 +48,7 @@ export default function Founders() {
               alt="facebook"
             />
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/anjanajayant?igsh=MTM2Nzl4M3lhMXR2bQ==">
             <img
               className="w-5 h-5"
               src="https://img.icons8.com/ios/50/instagram-new--v1.png"
@@ -75,8 +75,8 @@ export default function Founders() {
           alt=""
         />
         <div className="text-bold font-[NeoSansPro-Medium]">
-          <h2 className="text-center ">AKKAD BAAKAD</h2>
-          <h2 className="text-center">Position</h2>
+          <h2 className="text-center ">SHREYAS JALAPUR</h2>
+          <h2 className="text-center">CMO</h2>
         </div>
         <div className="flex gap-2">
           <a href="">
@@ -86,7 +86,7 @@ export default function Founders() {
               alt="facebook"
             />
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/woh_scrapji_wala?utm_source=qr&igsh=dmRoenQyNmxzNjFu">
             <img
               className="w-5 h-5"
               src="https://img.icons8.com/ios/50/instagram-new--v1.png"

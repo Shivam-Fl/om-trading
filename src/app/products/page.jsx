@@ -7,83 +7,93 @@ import "aos/dist/aos.css";
 const items = [
   {
     image: "/products/1.png",
-    name: "Beoplay M5 Bluetooth Speaker",
+    name: "PEARL POWDER",
     link: "#",
     label: "New",
     rating: 4,
     price: "$99.00",
     description:
-      "The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant to ensure a common set of data rights in the European Union. It requires organizations to notify users as soon as possible of high-risk data breaches that could personally affect them.",
+      "Nacre, an ingredient in pearl powder can also stimulate fibroblasts in the body, which accelerates wound healing. This can also help collagen regenerate itself, which may make wrinkles appear less prominent. Pearl powder was used as an anti-inflammatory, detoxifying agent, and relaxant in Chinese medicine",
   },
   {
     image: "/products/2.png",
-    name: "Apple Smart Watch 6 - Special Edition",
+    name: "TOMATO POWDER",
     link: "#",
     label: "",
     rating: 5,
     price: "$299.00",
     description:
-      "The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant to ensure a common set of data rights in the European Union. It requires organizations to notify users as soon as possible of high-risk data breaches that could personally affect them.",
+      "Tomato Powder has anti-atherosclerotic properties thanks to the acid they contain, which intensifies the oxidation of fatty acids in liver cells and inhibits the accumulation of triglycerides in them. Cholesterol levels are also lowered by pectin in tomato powder. Lycopene also works well for the heart.",
   },
   {
     image: "/products/3.png",
-    name: "Beylob 90 Speaker",
+    name: "MORINGA",
     link: "#",
     label: "Sale",
     rating: 3,
     price: "$199.00",
     description:
-      "The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant to ensure a common set of data rights in the European Union. It requires organizations to notify users as soon as possible of high-risk data breaches that could personally affect them.",
+      "Moringa contains a range of antioxidant and anti-inflammatory agents, such as quercetin, which may help protect cardiovascular health. Quercetin may help prevent lipid formation and inflammation, both of which can contribute to heart disease. Moringa may also have cholesterol-lowering properties.",
+  },
+  {
+    image: "/products/4.png",
+    name: "SHELL POWDER",
+    link: "#",
+    label: "",
+    rating: 5,
+    price: "$349.00",
+    description: "Using shell powder as a feed additive can promote bone growth and blood circulation of livestock and poultry, and improve the quality and output of eggs and milk. After being eaten, shell powder can stay in the muscles of poultry and livestock for up to several days, and the absorption time is sufficient",
   },
   {
     image: "/products/5.png",
-    name: "Sony WH-1000XM4",
+    name: "ONION POWDER",
     link: "#",
     label: "",
     rating: 5,
     price: "$349.00",
     description:
-      "The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant to ensure a common set of data rights in the European Union. It requires organizations to notify users as soon as possible of high-risk data breaches that could personally affect them.",
+      "Onion powder can combat various bacterial and fungal infections, including those in the mouth, which often lead to mouth sores. Its antimicrobial properties are also of high significance in treating chest and nasal congestion, making it a natural remedy for common ailments like bronchitis and asthmatic conditions.",
   },
   {
     image: "/products/6.png",
-    name: "Sony WH-1000XM4",
+    name: "PEARL",
     link: "#",
     label: "",
     rating: 5,
     price: "$349.00",
     description:
-      "The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant to ensure a common set of data rights in the European Union. It requires organizations to notify users as soon as possible of high-risk data breaches that could personally affect them.",
+      " ",
   },
   {
     image: "/products/7.png",
-    name: "Sony WH-1000XM4",
+    name: "POTASH ALUM",
     link: "#",
     label: "",
     rating: 5,
     price: "$349.00",
     description:
-      "The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant to ensure a common set of data rights in the European Union. It requires organizations to notify users as soon as possible of high-risk data breaches that could personally affect them.",
+      "Properties of alum for the skin Astringents can temporarily reduce the size of pores and tighten the skin. Alum is also bacteriostatic, which means it prevents bacteria from growing, making it useful as a preservative. It can reduce bacterial growth in personal care products and extend their shelf life",
   },
   {
     image: "/products/8.png",
-    name: "Sony WH-1000XM4",
+    name: "Multani Mitti",
     link: "#",
     label: "",
     rating: 5,
     price: "$349.00",
     description:
-      "The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant to ensure a common set of data rights in the European Union. It requires organizations to notify users as soon as possible of high-risk data breaches that could personally affect them.",
+      "Multani Mitti is backed by oil-absorbing properties, which help control the excess sebum produced by sebaceous glands. It makes it a perfect ingredient for people with oily or acne-prone skin. It reduces oiliness, unclogs skin pores, and prevents acne and pimple breakouts.",
   },
   {
     image: "/products/9.png",
-    name: "Sony WH-1000XM4",
+    name: "CURRY LEAVES",
     link: "#",
     label: "",
     rating: 5,
     price: "$349.00",
-    description: "The",
+    description: "Curry leaves are rich in antioxidants, vitamins (such as A, B, C, and E), and minerals. They are believed to have various health benefits, including aiding digestion, promoting hair health, reducing cholesterol, controlling diabetes, and having anti-inflammatory properties",
   },
+  
 ];
 
 const FeaturedItems = () => {

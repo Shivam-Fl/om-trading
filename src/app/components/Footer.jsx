@@ -65,12 +65,12 @@ const Footer = () => {
               <h2 className="mb-2 text-sm font-semibold text-gray-900 uppercase ">
                 Head office
               </h2>
-              <p className="text-gray-500">XYZ XYZ XYZ XYZ</p>
+              <p className="text-gray-500">Head office - 3/105, malhar palace CHS, opposite kasturi plaza, dombivli East 421201</p>
 
               <h2 className="mb-2 mt-6 text-sm font-semibold text-gray-900 uppercase ">
                 Business Hours
               </h2>
-              <p className="text-gray-500">XYZ XYZ XYZ XYZ</p>
+              <p className="text-gray-500">MON - SAT </p>
               {/* <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <Link href="https://github.com/themesberg/flowbite">

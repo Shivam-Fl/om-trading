@@ -20,18 +20,19 @@ const HomeIntro = () => {
     <div
       data-aos="fade-up"
       data-aos-duration="700"
-      className=" h-[85vh] bg-home mb-[5vh] rounded-bl-[10vh] "
+      className=" h-[85vh] bg-home mb-[5vh] rounded-bl-[10vh] relative"
     >
       {/* <video className="border rounded-bl-[10rem] " autoPlay muted  id="myVideo">
   <source src="/home/homV.mp4" type="video/mp4" />
 </video> */}
+      <div className=" bg-gray-300 opacity-30 absolute h-[85vh] w-[100vw] rounded-bl-[10vh]"></div>
 
-      <div className="md:flex relative max-lg:m-4">
-        <div className="md:p-[5vh] md:pt-52 pt-36 md:pl-36 lg:mt-32  gap-10 lg:gap-20 font-medium md:pr-0 ">
+      <div className="md:flex relative max-lg:m-4 z-10 ">
+        <div className="md:p-[5vh] md:pt-52 pt-24 md:pl-36 lg:mt-20  gap-10 lg:gap-20 font-medium md:pr-0 ">
           <span
             data-aos="fade-up"
             data-aos-duration="400"
-            className="text-white md:text-8xl text-5xl sm:text-6xl lg:text-[10rem] leading-tight shadow outline-8 font-bold "
+            className="text-white max-md:text-[2rem] md:text-[3.5rem] lg:text-[5rem] leading-tight shadow outline-8 font-bold drop-shadow-lg [text-shadow:_0_10px_0_rgb(0_0_0_/_40%)] "
           >
             Om Trading <br />
             Corporation
@@ -42,7 +43,7 @@ const HomeIntro = () => {
             sustainability across international markets.
           </p>
           <Link href="/contact" >
-            <div className="bg-blue-400 p-2 px-6 text-black rounded-lg w-44 mt-6 flex items-center space-x-4 h-12">
+            <div className="bg-blue-400 p-2 px-6 text-black rounded-lg w-44 mt-6  flex items-center space-x-4 h-12">
               <span>Contact Us</span>
               <FaArrowRight className="text-blue-100 font-extrabold text-xl" />
             </div>

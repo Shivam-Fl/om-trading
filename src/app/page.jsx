@@ -23,7 +23,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden max-lg:-mt-5">
       <div>
         <HomeIntro />
       </div>

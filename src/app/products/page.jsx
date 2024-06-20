@@ -61,8 +61,8 @@ const items = [
     label: "",
     rating: 5,
     price: "$349.00",
-    description:
-      " ",
+    description: "Pearls are prized gemstones known for their lustrous beauty and elegance. They are formed within the soft tissue of a living shelled mollusk. Pearls come in various colors, including white, black, and pink. They symbolize purity and are often used in jewelry such as necklaces, earrings, and bracelets. Besides their aesthetic value, pearls are believed to have calming effects and promote emotional balance."
+,
   },
   {
     image: "/products/7.png",
@@ -93,6 +93,33 @@ const items = [
     price: "$349.00",
     description: "Curry leaves are rich in antioxidants, vitamins (such as A, B, C, and E), and minerals. They are believed to have various health benefits, including aiding digestion, promoting hair health, reducing cholesterol, controlling diabetes, and having anti-inflammatory properties",
   },
+  {
+    image: "/products/alphonso_mango.jpg",
+    name: "ALPHONSO MANGO",
+    link: "#",
+    label: "Seasonal",
+    rating: 5,
+    price: "$499.00",
+    description: "Alphonso mangoes are renowned for their rich flavor, vibrant color, and sweet taste. They are a great source of vitamins A, C, and E, as well as dietary fiber. Alphonso mangoes are often enjoyed fresh, in smoothies, or as a key ingredient in desserts and sauces."
+  },
+  {
+    image: "/products/yellow_turmeric.webp",
+    name: "YELLOW TURMERIC POWDER",
+    link: "#",
+    label: "",
+    rating: 4.5,
+    price: "$199.00",
+    description: "Yellow turmeric powder is widely used for its vibrant color and earthy flavor in culinary dishes. It is rich in curcumin, which has powerful anti-inflammatory and antioxidant properties. This spice is also known to support immune health, improve digestion, and enhance skin health."
+  },{
+    image: "/products/black_turmeric.jpg",
+    name: "BLACK TURMERIC POWDER",
+    link: "#",
+    label: "",
+    rating: 4.5,
+    price: "$299.00",
+    description: "Black turmeric powder is known for its distinctive dark color and pungent flavor. It contains curcumin and other bioactive compounds that offer numerous health benefits, including anti-inflammatory, antioxidant, and antimicrobial properties. It is often used in traditional medicine to aid with respiratory issues, digestive problems, and joint pain."
+  },    
+  
   
 ];
 
@@ -143,10 +170,19 @@ const FeaturedItems = () => {
             >
               <div className="overflow-hidden  bg-blue-50 border-0 rounded-3xl">
                 <img
-                  className="   transition-all duration-300 group-hover:scale-125"
+                  className="   transition-all duration-300 group-hover:scale-125 md:min-h-96"
                   src={item.image}
                   alt={item.name}
                 />
+                <div
+                  
+                  data-aos="fade-up"
+                  className="absolute max-md:bottom-16 md:bottom-20 left-2"
+                >
+                  <a  className="bg-blue-600 p-1 md:p-2 md:px-6 text-gray-100 rounded-r-lg md:w-32 w-20 max-md:text-xs max-md:h-6 mt-6 flex items-center md:space-x-4 md:h-12">
+                    <span>Tap for info</span>
+                  </a>
+                </div>
               </div>
               {item.label && (
                 <div

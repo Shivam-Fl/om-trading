@@ -31,9 +31,9 @@ export default function Home() {
         <ServiceProductCard />
       </div>
 
-      <div className="max-w-7xl mx-auto mb-[5vh] p-[3vh] ">
+      {/* <div className="max-w-7xl mx-auto mb-[5vh] p-[3vh] ">
         <AboutUs />
-      </div>
+      </div> */}
       <div className="max-w-7xl mx-auto mb-[5vh] md:p-[3vh]">
         <Founders />
       </div>

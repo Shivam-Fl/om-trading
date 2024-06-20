@@ -11,7 +11,7 @@ export default function Founders() {
   }, []);
 
   return (
-    <div className="flex max-md:flex-col justify-center items-center max-w-7xl m-2 gap-x-10 ">
+    <div className="flex max-md:flex-col justify-center items-center max-w-7xl m-2 gap-x-10 mt-10 ">
       <div className="basis-2/4 flex flex-col gap-y-10">
         <h2 className="text-bold max-md:text-3xl max-sm:text-center md:text-5xl text-black font-[NeoSansPro-Medium]">
           Meet Our Founders

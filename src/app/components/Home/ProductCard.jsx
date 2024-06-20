@@ -180,7 +180,7 @@ const ServiceProductCard = () => {
                   data-aos="fade-up"
                   className="absolute bottom-2 left-2"
                 >
-                  <a onClick={() => setSelectedItem(product)} className="bg-blue-600 p-2 px-6 text-gray-100 rounded-r-lg w-32 mt-6 flex items-center space-x-4 h-12">
+                  <a onClick={() => setSelectedItem(product)} className="bg-blue-600 p-1 px-3 md:p-2 md:px-6 max-md:w-24 text-gray-100 rounded-r-lg md:w-32 mt-6 flex items-center max-md:text-sm space-x-4 h-12">
                     <span>Tap for info</span>
                   </a>
                 </div>

@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Head from "next/head"
 // import { db } from "../../../firebaseConfig"
 // import { collection , addDoc} from 'firebase/firestore'
 // import toast from "react-hot-toast";
@@ -68,6 +69,12 @@ const Page = () => {
   // };
 
   return (
+    <>
+    <Head>
+        <title>Contact Us - Om Trading Corporation</title>
+        <meta name="description" content="Contact Om Trading Corporation for inquiries and support related to our global trading and supply chain solutions. We are here to help you succeed in the international market." />
+        <meta name="keywords" content="om trading, contact us, global trading, supply chain solutions, support, inquiries" />
+      </Head>
     <div className="font-[NeoSansPro-Regular]">
       <header className="bg-blue-600 h-44 text-white ">
         <div className="container  sm:h-80 mx-10 ">
@@ -272,7 +279,8 @@ const Page = () => {
           </div>
         </div>
       </section>
-    </div>
+    </div></>
+    
   );
 };
 

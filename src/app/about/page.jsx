@@ -2,8 +2,11 @@
 import Image from 'next/image';
 import React from 'react'
 import { useEffect } from "react";
+import Head from "next/head"
 import AOS from "aos";
 import 'aos/dist/aos.css';
+
+
 
 const content = [
     {
@@ -34,7 +37,14 @@ export default function page() {
   }, []);
 
   return (
-    <div className='font-[NeoSansPro-Regular]'>
+    <>
+    <Head>
+        <title>About Us - Om Trading Corporation</title>
+        <meta name="description" content="Learn more about Om Trading Corporation, our mission, vision, and the innovative solutions we provide in global trading and supply chain management." />
+        <meta name="keywords" content="om trading, about us, global trading, supply chain solutions, company mission, company vision" />
+      </Head>
+     <div className='font-[NeoSansPro-Regular]'>
+      
        <header data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="600"
@@ -96,6 +106,7 @@ export default function page() {
     </footer> */}
 
 
-    </div>
+    </div></>
+   
   )
 }

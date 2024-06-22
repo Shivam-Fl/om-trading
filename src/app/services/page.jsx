@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import Head from "next/head"
 const services = [
   {
     title: "Trading",
@@ -64,12 +64,10 @@ export default function Home() {
 
   return (
     <div>
-      <Head>
-        <title>Om Trading Corporation</title>
-        <meta
-          name="description"
-          content="Om Trading Corporation - International Trading and Supply Chain Solutions"
-        />
+       <Head>
+        <title>Services - Om Trading Corporation</title>
+        <meta name="description" content="Discover the range of services offered by Om Trading Corporation. We provide exceptional global trading and supply chain solutions to help you succeed in the international market." />
+        <meta name="keywords" content="om trading, services, global trading, supply chain solutions, international market, business services" />
       </Head>
 
       <main className="mx-auto font-[NeoSansPro-Regular]">

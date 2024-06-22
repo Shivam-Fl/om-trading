@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-
+import Head from "next/head"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -133,7 +133,14 @@ const FeaturedItems = () => {
     };
   }, []);
   return (
+    <>
+    <Head>
+    <title>Products - Om Trading Corporation</title>
+    <meta name="description" content="Explore the wide range of products offered by Om Trading Corporation. We provide high-quality products across various international markets, ensuring efficiency and sustainability." />
+    <meta name="keywords" content="om trading, products, global trading, supply chain solutions, international markets, high-quality products, pearl powder, moringa, curry leaves, alphonso mango, yellow turmeric, black turmeic, shell powder, multani mitti, potash alum" />
+  </Head>
     <section className="pb-12 sm:pb-16 lg:pb-20 font-[NeoSansPro-Regular]">
+     
       <header
         data-aos="fade-up"
         data-aos-duration="600"
@@ -276,7 +283,8 @@ const FeaturedItems = () => {
           </div>
         </div>
       )}
-    </section>
+    </section></>
+    
   );
 };
 

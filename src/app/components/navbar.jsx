@@ -57,18 +57,17 @@ function Navbar() {
   return (
     <div className="sticky top-0 bg-gray-100  z-[200] font-[NeoSansPro-Regular]">
       <div className="flex justify-between align-center text-lg sm:text-2xl mx-auto p-4  items-center">
-        {/* <a
-          href="https://www.effilearn.in/"
+        <a
+          href="/"
           className="flex items-center space-x-1 rtl:space-x-reverse"
         >
           <img
-            src={`${darkMode ? "/logo_darkmode.png" : "/lightLogo.png"}`}
+            src="omLogo.png"
             className="h-12 w-36 md:h-20 md:w-60"
-            alt="Effilearn logo"
+            alt="Om Trading logo"
           />
-        </a> */}
-        <h1 className="font-bold ">Om Trading</h1>
-
+        </a>
+        
         <div className="hidden md:flex self-center z-[200]">
           <div className="flex gap-x-8 lg:gap-x-20 self-center text-lg xl:text-xl font-montserrat font-bold dark:font-medium dark:text-gray-100 text-gray-800">
             {navLink.map((link) => (

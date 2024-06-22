@@ -18,18 +18,15 @@ const Footer = () => {
       <div className="mx-auto w-full  p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0 basis-1/2 flex flex-col justify-center items-start">
-            <Link href="#">
+            <Link href="/">
               <p className="flex items-center">
-                <Image
-                  src=""
-                  className="h-8 me-3"
-                  alt="FlowBite Logo"
-                  width={32}
-                  height={32}
+                <img
+                  src="/omLogo.png"
+                  className="w-48 h-24"
+                  alt="Om trading Logo"
+                 
                 />
-                <span className="self-center text-2xl font-semibold whitespace-nowrap ">
-                  Om Trading
-                </span>
+
               </p>
             </Link>
             <p className="max-w-sm">

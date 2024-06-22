@@ -20,22 +20,22 @@ const HomeIntro = () => {
     <div
       data-aos="fade-up"
       data-aos-duration="700"
-      className=" h-[85vh] bg-home mb-[5vh] rounded-bl-[10vh] relative"
+      className=" max-sm:h-[85vh]  home mb-[5vh] rounded-bl-[10vh] relative"
     >
       {/* <video className="border rounded-bl-[10rem] " autoPlay muted  id="myVideo">
   <source src="/home/homV.mp4" type="video/mp4" />
 </video> */}
-      <div className=" bg-blue-950 opacity-30 absolute h-[85vh] w-[100vw] rounded-bl-[10vh]"></div>
+      <div className=" bg-black opacity-45 absolute max-sm:h-[85vh] h-[100%]  w-[100vw] rounded-bl-[10vh]"></div>
 
-      <div className="md:flex relative max-lg:m-4 z-10 flex flex-col justify-center items-center ">
+      <div className="md:flex relative max-lg:mx-4 z-10  flex flex-col justify-center items-center ">
         <div className="md:p-[5vh] md:pt-52 pt-24  lg:mt-20  gap-10 lg:gap-20 font-medium md:pr-0 ">
           <span
             data-aos="fade-up"
             data-aos-duration="400"
-            className="text-white max-md:text-[3rem] md:text-[4rem] lg:text-[6rem] leading-tight shadow outline-8 font-bold drop-shadow-lg [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)] "
+            className="text-white max-md:text-[3rem] md:text-[4rem] lg:text-[6rem] leading-tight shadow outline-8 font-bold drop-shadow-lg [text-shadow:_0_1px_0_rgb(1_1_1_/_40%)] "
           >
-            Om Trading <br />
-            Corporation
+           <span className=" text-[#163e71] text-transparent bg-blue-500 p-1 rounded-2xl"> Om Trading </span><br />
+            <span className="text-[#ac3f8d]">Corporation</span> 
           </span>
           <p className="text-white max-sm:text-sm md:mt-5 font-light [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)] ">
             Om Trading Corporation specializes in global trading and supply

@@ -27,7 +27,7 @@ const HomeIntro = () => {
 </video> */}
       <div className=" bg-black opacity-45 absolute max-sm:h-[85vh] h-[100%]  w-[100vw] rounded-bl-[10vh]"></div>
 
-      <div className="md:flex relative max-lg:mx-4 z-10  flex flex-col justify-center items-center ">
+      <div className="md:flex relative max-lg:mx-4 z-10 h-full  flex flex-col justify-center items-center ">
         <div className="md:p-[5vh] md:pt-52 pt-24  lg:mt-20  gap-10 lg:gap-20 font-medium md:pr-0 ">
           <span
             data-aos="fade-up"

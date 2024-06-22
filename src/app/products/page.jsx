@@ -26,7 +26,7 @@ const items = [
       "Tomato Powder has anti-atherosclerotic properties thanks to the acid they contain, which intensifies the oxidation of fatty acids in liver cells and inhibits the accumulation of triglycerides in them. Cholesterol levels are also lowered by pectin in tomato powder. Lycopene also works well for the heart.",
   },
   {
-    image: "/products/3.png",
+    image: "/products/9.png",
     name: "MORINGA",
     link: "#",
     label: "Sale",
@@ -85,7 +85,7 @@ const items = [
       "Multani Mitti is backed by oil-absorbing properties, which help control the excess sebum produced by sebaceous glands. It makes it a perfect ingredient for people with oily or acne-prone skin. It reduces oiliness, unclogs skin pores, and prevents acne and pimple breakouts.",
   },
   {
-    image: "/products/9.png",
+    image: "/products/3.png",
     name: "CURRY LEAVES",
     link: "#",
     label: "",

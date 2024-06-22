@@ -30,13 +30,19 @@ const Achivement = () => {
         </p>
         <div className="flex items-center space-x-4 pt-5">
           <div className="flex items-center justify-center rounded-full hover:bg-white w-16 h-16 bg-blue-100 z-50 border text-center text-2xl">
-            <IoCallOutline className="text-blue-700 hover:text-black" />
+          <a href="tel:+91 88798 07702">
+          <IoCallOutline className="text-blue-700 hover:text-black" />
+            </a>
+            
           </div>
 
           <div className="text-left ">
+            <a href="tel:+91 88798 07702">
             <span className="text-[#4D5053] block font-bold">
-              +966 66666666666
+              +91 88798 07702
             </span>
+            </a>
+            
             <span className="text-[#4D5053] block">Call Us Anytime</span>
           </div>
         </div>

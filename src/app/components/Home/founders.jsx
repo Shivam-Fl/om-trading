@@ -34,20 +34,20 @@ export default function Founders() {
         <img
           className="rounded-full h-32 w-32"
           src="/ANJANA_JALAPUR.jpeg"
-          alt=""
+          alt="ANJANA_JALAPUR"
         />
         <div className="text-bold font-[NeoSansPro-Medium]">
           <h2 className="text-center ">ANJANA JALAPUR</h2>
           <h2 className="text-center">Proprietor</h2>
         </div>
         <div className="flex gap-2">
-          <a href="">
+          {/* <a href="">
             <img
               className="w-5 h-5"
               src="https://img.icons8.com/ios/50/facebook-new.png"
               alt="facebook"
             />
-          </a>
+          </a> */}
           <a href="https://www.instagram.com/anjanajayant?igsh=MTM2Nzl4M3lhMXR2bQ==">
             <img
               className="w-5 h-5"
@@ -55,13 +55,13 @@ export default function Founders() {
               alt="instagram"
             />
           </a>
-          <a href="">
+          {/* <a href="">
             <img
               className="w-5 h-5"
               src="https://img.icons8.com/ios/50/linkedin.png"
               alt="linkedin"
             />
-          </a>
+          </a> */}
         </div>
       </div>
       <div
@@ -71,21 +71,21 @@ export default function Founders() {
       >
         <img
           className="rounded-full h-32 w-32"
-          src="https://www2.deloitte.com/content/dam/Deloitte/nl/Images/promo_images/deloitte-nl-cm-digital-human-promo.jpg"
-          alt=""
+          src="/shreyas.jpeg"
+          alt="Shreyas photo"
         />
         <div className="text-bold font-[NeoSansPro-Medium]">
           <h2 className="text-center ">SHREYAS JALAPUR</h2>
           <h2 className="text-center">CMO</h2>
         </div>
         <div className="flex gap-2">
-          <a href="">
+          {/* <a href="">
             <img
               className="w-5 h-5"
               src="https://img.icons8.com/ios/50/facebook-new.png"
               alt="facebook"
             />
-          </a>
+          </a> */}
           <a href="https://www.instagram.com/woh_scrapji_wala?utm_source=qr&igsh=dmRoenQyNmxzNjFu">
             <img
               className="w-5 h-5"
@@ -93,13 +93,13 @@ export default function Founders() {
               alt="instagram"
             />
           </a>
-          <a href="">
+          {/* <a href="">
             <img
               className="w-5 h-5"
               src="https://img.icons8.com/ios/50/linkedin.png"
               alt="linkedin"
             />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

@@ -28,6 +28,7 @@ export default function RootLayout({
           href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
           rel="stylesheet"
         />
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={inter.className + " font-[NeoSansPro-Regular]"}>
         <Navbar />
